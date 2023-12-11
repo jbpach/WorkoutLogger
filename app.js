@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 const cors = require('cors')
 require('dotenv').config()
-const workoutRouter = require('./controllers/Workout')
+const workoutRouter = require('./controllers/workout')
 
 
 mongoose.set('strictQuery', false)
