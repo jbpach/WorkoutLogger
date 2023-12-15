@@ -1,0 +1,938 @@
+[
+    {
+        "id": 0,
+        "muscle": "Chest", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Bar Dip"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Bench Press"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Cable Chest Press"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Close-Grip Bench Press"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Close-Grip Feet-Up Bench Press"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Decline Bench Press"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Dumbbell Chest Fly"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Dumbbell Chest Press"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Dumbbell Decline Chest Press"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Dumbbell Floor Press"
+            }, 
+            {
+                "id": 10,
+                "exercise": "Dumbbell Pullover"
+            }, 
+            {
+                "id": 11,
+                "exercise": "Feet-Up Bench Press"
+            }, 
+            {
+                "id": 12,
+                "exercise": "Floor Press"
+            }, 
+            {
+                "id": 13,
+                "exercise": "Incline Bench Press"
+            }, 
+            {
+                "id": 14,
+                "exercise": "Incline Dumbbell Press"
+            }, 
+            {
+                "id": 15,
+                "exercise": "Incline Push-Up"
+            }, 
+            {
+                "id": 16,
+                "exercise": "Kneeling Incline Push-Up"
+            }, 
+            {
+                "id": 17,
+                "exercise": "Kneeling Push-Up"
+            }, 
+            {
+                "id": 18,
+                "exercise": "Machine Chest Fly"
+            }, 
+            {
+                "id": 19,
+                "exercise": "Machine Chest Press"
+            }, 
+            {
+                "id": 20,
+                "exercise": "Pec Deck"
+            }, 
+            {
+                "id": 21,
+                "exercise": "Push-Up"
+            }, 
+            {
+                "id": 22,
+                "exercise": "Push-Up Against Wall"
+            }, 
+            {
+                "id": 23,
+                "exercise": "Push-Ups With Feet in Rings"
+            }, 
+            {
+                "id": 24,
+                "exercise": "Resistance Band Chest Fly"
+            }, 
+            {
+                "id": 25,
+                "exercise": "Smith Machine Bench Press"
+            }, 
+            {
+                "id": 26,
+                "exercise": "Smith Machine Incline Bench Press"
+            }, 
+            {
+                "id": 27,
+                "exercise": "Standing Cable Chest Fly"
+            }, 
+            {
+                "id": 28,
+                "exercise": "Standing Resistance Band Chest Fly"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "muscle": "Shoulder", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Band External Shoulder Rotation"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Band Internal Shoulder Rotation"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Band Pull-Apart"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Barbell Front Raise"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Barbell Rear Delt Row"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Barbell Upright Row"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Behind the Neck Press"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Cable Lateral Raise"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Cable Rear Delt Row"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Dumbbell Front Raise"
+            }, 
+            {
+                "id": 10,
+                "exercise": "Dumbbell Horizontal Internal Shoulder Rotation"
+            }, 
+            {
+                "id": 11,
+                "exercise": "Dumbbell Horizontal External Shoulder Rotation"
+            }, 
+            {
+                "id": 12,
+                "exercise": "Dumbbell Lateral Raise"
+            }, 
+            {
+                "id": 13,
+                "exercise": "Dumbbell Rear Delt Row"
+            }, 
+            {
+                "id": 14,
+                "exercise": "Dumbbell Shoulder Press"
+            }, 
+            {
+                "id": 15,
+                "exercise": "Face Pull"
+            }, 
+            {
+                "id": 16,
+                "exercise": "Front Hold"
+            }, 
+            {
+                "id": 17,
+                "exercise": "Lying Dumbbell External Shoulder Rotation"
+            }, 
+            {
+                "id": 18,
+                "exercise": "Lying Dumbbell Internal Shoulder Rotation"
+            }, 
+            {
+                "id": 19,
+                "exercise": "Machine Lateral Raise"
+            }, 
+            {
+                "id": 20,
+                "exercise": "Machine Shoulder Press"
+            }, 
+            {
+                "id": 21,
+                "exercise": "Monkey Row"
+            }, 
+            {
+                "id": 22,
+                "exercise": "Overhead Press"
+            }, 
+            {
+                "id": 23,
+                "exercise": "Plate Front Raise"
+            }, 
+            {
+                "id": 24,
+                "exercise": "Power Jerk"
+            }, 
+            {
+                "id": 25,
+                "exercise": "Push Press"
+            }, 
+            {
+                "id": 26,
+                "exercise": "Reverse Cable Flies"
+            }, 
+            {
+                "id": 27,
+                "exercise": "Reverse Dumbbell Flies"
+            }, 
+            {
+                "id": 28,
+                "exercise": "Reverse Machine Fly"
+            },
+            {
+                "id": 29,
+                "exercise": "Seated Dumbbell Shoulder Press"
+            },
+            {
+                "id": 30,
+                "exercise": "Seated Barbell Overhead Press"
+            },
+            {
+                "id": 31,
+                "exercise": "Seated Smith Machine Shoulder Press"
+            },
+            {
+                "id": 32,
+                "exercise": "Snatch Grip Behind the Neck Press"
+            },
+            {
+                "id": 33,
+                "exercise": "Squat Jerk"
+            },
+            {
+                "id": 34,
+                "exercise": "Split Jerk"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "muscle": "Bicep", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Barbell Curl"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Barbell Preacher Curl"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Bodyweight Curl"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Cable Curl With Bar"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Cable Curl With Rope"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Concentration Curl"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Dumbbell Curl"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Dumbbell Preacher Curl"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Hammer Curl"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Incline Dumbbell Curl"
+            }, 
+            {
+                "id": 10,
+                "exercise": "Machine Bicep Curl"
+            }, 
+            {
+                "id": 11,
+                "exercise": "Spider Curl"
+            }
+        ]
+    }, 
+    {
+        "id": 3,
+        "muscle": "Tricep", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Barbell Standing Triceps Extension"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Barbell Lying Triceps Extension"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Bench Dip"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Close-Grip Push-Up"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Dumbbell Lying Triceps Extension"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Dumbbell Standing Triceps Extension"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Overhead Cable Triceps Extension"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Tricep Bodyweight Extension"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Tricep Pushdown With Bar"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Tricep Pushdown With Rope"
+            }
+        ]
+    }, 
+    {
+        "id": 4,
+        "muscle": "Leg", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Air Squat"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Barbell Hack Squat"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Barbell Lunge"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Barbell Walking Lunge"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Belt Squat"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Body Weight Lunge"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Box Squat"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Bulgarian Split Squat"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Chair Squat"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Dumbbell Lunge"
+            },
+            {
+                "id": 10,
+                "exercise": "Dumbbell Squat"
+            },
+            {
+                "id": 11,
+                "exercise": "Front Squat"
+            },
+            {
+                "id": 12,
+                "exercise": "Goblet Squat"
+            },
+            {
+                "id": 13,
+                "exercise": "Hack Squat Machine"
+            },
+            {
+                "id": 14,
+                "exercise": "Half Air Squat"
+            },
+            {
+                "id": 15,
+                "exercise": "Hip Adduction Machine"
+            },
+            {
+                "id": 16,
+                "exercise": "Landmine Hack Squat"
+            },
+            {
+                "id": 17,
+                "exercise": "Landmine Squat"
+            },
+            {
+                "id": 18,
+                "exercise": "Leg Extension"
+            },
+            {
+                "id": 19,
+                "exercise": "Leg Press"
+            },
+            {
+                "id": 20,
+                "exercise": "Lying Leg Curl"
+            },
+            {
+                "id": 21,
+                "exercise": "Pause Squat"
+            },
+            {
+                "id": 22,
+                "exercise": "Romanian Deadlift"
+            },
+            {
+                "id": 23,
+                "exercise": "Safety Bar Squat"
+            },
+            {
+                "id": 24,
+                "exercise": "Seated Leg Curl"
+            },
+            {
+                "id": 25,
+                "exercise": "Shallow Body Weight Lunge"
+            },
+            {
+                "id": 26,
+                "exercise": "Side Lunges (Bodyweight)"
+            },
+            {
+                "id": 27,
+                "exercise": "Smith Machine Squat"
+            },
+            {
+                "id": 28,
+                "exercise": "Squat"
+            },
+            {
+                "id": 29,
+                "exercise": "Step Up"
+            }
+        ]
+    }, 
+    {
+        "id": 5, 
+        "muscle": "Back", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Back Extension"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Barbell Row"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Barbell Shrug"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Block Snatch"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Cable Close Grip Seated Row"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Cable Wide Grip Seated Row"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Chin-Up"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Clean"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Clean and Jerk"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Deadlift"
+            },
+            {
+                "id": 10,
+                "exercise": "Deficit Deadlift"
+            },
+            {
+                "id": 11,
+                "exercise": "Dumbbell Deadlift"
+            },
+            {
+                "id": 12,
+                "exercise": "Dumbbell Row"
+            },
+            {
+                "id": 13,
+                "exercise": "Dumbbell Shrug"
+            },
+            {
+                "id": 14,
+                "exercise": "Floor Back Extension"
+            },
+            {
+                "id": 15,
+                "exercise": "Good Morning"
+            },
+            {
+                "id": 16,
+                "exercise": "Hang Clean"
+            },
+            {
+                "id": 17,
+                "exercise": "Hang Power Clean"
+            },
+            {
+                "id": 18,
+                "exercise": "Hang Power Snatch"
+            },
+            {
+                "id": 19,
+                "exercise": "Hang Snatch"
+            },
+            {
+                "id": 20,
+                "exercise": "Inverted Row"
+            },
+            {
+                "id": 21,
+                "exercise": "Inverted Row with Underhand Grip"
+            },
+            {
+                "id": 22,
+                "exercise": "Jefferson Curl"
+            },
+            {
+                "id": 23,
+                "exercise": "Kettlebell Swing"
+            },
+            {
+                "id": 24,
+                "exercise": "Lat Pulldown With Pronated Grip"
+            },
+            {
+                "id": 25,
+                "exercise": "Lat Pulldown With Supinated Grip"
+            },
+            {
+                "id": 26,
+                "exercise": "One-Handed Cable Row"
+            },
+            {
+                "id": 27,
+                "exercise": "One-Handed Lat Pulldown"
+            },
+            {
+                "id": 28,
+                "exercise": "Pause Deadlift"
+            },
+            {
+                "id": 29,
+                "exercise": "Pendlay Row"
+            },
+            {
+                "id": 30,
+                "exercise": "Power Clean"
+            },
+            {
+                "id": 31,
+                "exercise": "Power Snatch"
+            },
+            {
+                "id": 32,
+                "exercise": "Pull-Up"
+            },
+            {
+                "id": 33,
+                "exercise": "Rack Pull"
+            },
+            {
+                "id": 34,
+                "exercise": "Seal Row"
+            },
+            {
+                "id": 35,
+                "exercise": "Seated Machine Row"
+            },
+            {
+                "id": 36,
+                "exercise": "Snatch"
+            },
+            {
+                "id": 37,
+                "exercise": "Snatch Grip Deadlift"
+            },
+            {
+                "id": 38,
+                "exercise": "Stiff-Legged Deadlift"
+            },
+            {
+                "id": 39,
+                "exercise": "Straight Arm Lat Pulldown"
+            },
+            {
+                "id": 40,
+                "exercise": "Sumo Deadlift"
+            },
+            {
+                "id": 41,
+                "exercise": "T-Bar Row"
+            },
+            {
+                "id": 42,
+                "exercise": "Trap Bar Deadlift With High Handles"
+            },            
+            {
+                "id": 43,
+                "exercise": "Trap Bar Deadlift With Low Handles"
+            }
+        ]
+    },
+    {
+        "id": 6, 
+        "muscle": "Glute", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Banded Side Kicks"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Cable Pull Through"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Clamshells"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Dumbbell Romanian Deadlift"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Dumbbell Frog Pumps"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Fire Hydrants"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Frog Pumps"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Glute Bridge"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Hip Abduction Against Band"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Hip Abduction Machine"
+            },
+            {
+                "id": 10,
+                "exercise": "Hip Thrust"
+            },
+            {
+                "id": 11,
+                "exercise": "Hip Thrust Machine"
+            },
+            {
+                "id": 12,
+                "exercise": "Hip Thrust With Band Around Knees"
+            },
+            {
+                "id": 13,
+                "exercise": "Lateral Walk With Band"
+            },
+            {
+                "id": 14,
+                "exercise": "Machine Glute Kickbacks"
+            },
+            {
+                "id": 15,
+                "exercise": "One-Legged Glute Bridge"
+            },
+            {
+                "id": 16,
+                "exercise": "One-Legged Hip Thrust"
+            },
+            {
+                "id": 17,
+                "exercise": "Romanian Deadlift"
+            },
+            {
+                "id": 18,
+                "exercise": "Single Leg Romanian Deadlift"
+            },
+            {
+                "id": 19,
+                "exercise": "Standing Glute Kickback in Machine"
+            },
+            {
+                "id": 20,
+                "exercise": "Step Up"
+            }
+        ]
+    },
+    {
+        "id": 7, 
+        "muscle": "Ab", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Cable Crunch"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Crunch"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Dead Bug"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Hanging Leg Raise"
+            }, 
+            {
+                "id": 4,
+                "exercise": "Hanging Knee Raise"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Hanging Sit-Up"
+            }, 
+            {
+                "id": 6,
+                "exercise": "High to Low Wood Chop with Band"
+            }, 
+            {
+                "id": 7,
+                "exercise": "Horizontal Wood Chop with Band"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Kneeling Ab Wheel Roll-Out"
+            }, 
+            {
+                "id": 9,
+                "exercise": "Kneeling Plank"
+            },
+            {
+                "id": 10,
+                "exercise": "Kneeling Side Plank"
+            },
+            {
+                "id": 11,
+                "exercise": "Lying Leg Raise"
+            },
+            {
+                "id": 12,
+                "exercise": "Lying Windshield Wiper"
+            },
+            {
+                "id": 13,
+                "exercise": "Lying Windshield Wiper with Bent Knees"
+            },
+            {
+                "id": 14,
+                "exercise": "Machine Crunch"
+            },
+            {
+                "id": 15,
+                "exercise": "Mountain Climbers"
+            },
+            {
+                "id": 16,
+                "exercise": "Oblique Crunch"
+            },
+            {
+                "id": 17,
+                "exercise": "Oblique Sit-Up"
+            },
+            {
+                "id": 18,
+                "exercise": "Plank"
+            },
+            {
+                "id": 19,
+                "exercise": "Side Plank"
+            },
+            {
+                "id": 20,
+                "exercise": "Sit-Up"
+            }
+        ]
+    },
+    {
+        "id": 8, 
+        "muscle": "Calf", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Eccentric Heel Drop"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Heel Raise"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Seated Calf Raise"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Standing Calf Raise"
+            }
+        ]
+    },
+    {
+        "id": 9, 
+        "muscle": "Forearm", 
+        "exercises": [
+            {
+                "id": 0,
+                "exercise": "Barbell Wrist Curl"
+            }, 
+            {
+                "id": 1,
+                "exercise": "Barbell Wrist Curl Behind the Back"
+            }, 
+            {
+                "id": 2,
+                "exercise": "Barbell Wrist Extension"
+            }, 
+            {
+                "id": 3,
+                "exercise": "Bar Hang"
+            },
+            {
+                "id": 4,
+                "exercise": "Dumbbell Wrist Curl"
+            }, 
+            {
+                "id": 5,
+                "exercise": "Dumbbell Wrist Extension"
+            }, 
+            {
+                "id": 6,
+                "exercise": "Farmers Walk"
+            },
+            {
+                "id": 7,
+                "exercise": "Fat Bar Deadlift"
+            }, 
+            {
+                "id": 8,
+                "exercise": "Gripper"
+            }, 
+            {
+                "id": 9,
+                "exercise": "One-Handed Bar Hang"
+            },
+            {
+                "id": 10,
+                "exercise": "Plate Pinch"
+            }, 
+            {
+                "id": 11,
+                "exercise": "Plate Wrist Curl"
+            }, 
+            {
+                "id": 12,
+                "exercise": "Towel Pull-Up"
+            }
+        ]
+    }
+]

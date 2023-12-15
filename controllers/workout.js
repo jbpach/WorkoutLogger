@@ -2,7 +2,7 @@ const workoutRouter = require('express').Router()
 const {  Set, Exercise, Workout, } = require('../models/workout')
 
 workoutRouter.get('/', async (request, response) => {
-    const workouts = await Workout.find({})
+    const workouts = await Workout.find({}).sort({ createdAt: -1})
     response.json(workouts)
 })
 
@@ -30,15 +30,13 @@ workoutRouter.post('/addexercise/:id', async (request, response) => {
     const workout = await Workout.findById(request.params.id)
     const exercise = new Exercise({
         title: request.body.title, 
-        sets: [],
-        parent: request.params.id
+        sets: [
+            new Set({
+                weight: 0, 
+                reps: 0
+            })
+        ]
     })
-    const set = new Set({
-        weight: 0, 
-        reps: 0, 
-        parent: request.params.id
-    })
-    exercise.sets = exercise.sets.concat(set);
     workout.exercises = workout.exercises.concat(exercise)
     await workout.save()
     response.status(201).json(exercise)
@@ -56,7 +54,7 @@ workoutRouter.post('/addset/:id', async (request, response) => {
     const exercise = workout.exercises.find(exercise => exercise._id == request.body._id)
     const set = new Set({
         weight: 0, 
-        reps: 0, 
+        reps: 0
     })
     exercise.sets = exercise.sets.concat(set)
     await workout.save()
