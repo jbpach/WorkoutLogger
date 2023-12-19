@@ -79,4 +79,39 @@ workoutRouter.delete('/:id', async (request, response) => {
     response.status(204).end()
 })
 
+workoutRouter.get('/facts/:id', async (request, response) => {
+    const workout = await Workout.findById(request.params.id)
+    const totalSets = workout.exercises.reduce((total, item) => {
+        return total + item.sets.length
+    }, 0)
+    const totalReps = workout.exercises.reduce((mainTotal, item) => {
+        return mainTotal + item.sets.reduce((total, item) => {
+            return total + item.reps
+        }, 0)
+    }, 0)
+    const mostSets =  workout.exercises.reduce((a, b) => {
+        return a.sets.length > b.sets.length  ? a : b
+    }, workout.exercises[0])
+    const totalWeight = workout.exercises.reduce((mainTotal, item) => {
+        return mainTotal + item.sets.reduce((total, item) => {
+            return total + item.weight
+        }, 0)
+    }, 0)
+    const heaviestWeight =  workout.exercises.reduce((a, b) => {
+        let heavy = b.sets.reduce((c, d) => {
+            return c.weight > d.weight ? c : d
+        }, b.sets[0]) 
+        return a > heavy.weight ? a : heavy.weight
+    }, 0)
+    const obj = {
+        'totalSets': totalSets, 
+        'totalReps': totalReps, 
+        'mostSets': mostSets.title, 
+        'totalWeight': totalWeight, 
+        'heaviestWeight': heaviestWeight, 
+        'workout': workout
+    }
+    response.json(obj)
+})
+
 module.exports = workoutRouter
