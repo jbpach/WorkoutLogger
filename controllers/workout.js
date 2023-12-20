@@ -74,6 +74,23 @@ workoutRouter.post('/:id', async (request, response) => {
     response.status(201).json(updatedWorkout)
 })
 
+workoutRouter.post('/again/:id', async (request, response) => {
+    const foundWorkout = await Workout.findById(request.params.id)
+    const workoutObj = foundWorkout.toObject()
+    delete workoutObj['_id']
+    delete workoutObj['createdAt']
+    delete workoutObj['updatedAt']
+    delete workoutObj['__v']
+    workoutObj.exercises.forEach(element => {
+        delete element['_id']
+        element.sets.forEach(item => {
+            delete item['_id']
+        })
+    })
+    const savedWorkout = await new Workout({...workoutObj}).save()
+    response.status(201).json(savedWorkout)
+})
+
 workoutRouter.delete('/:id', async (request, response) => {
     await Workout.findByIdAndDelete(request.params.id)
     response.status(204).end()
